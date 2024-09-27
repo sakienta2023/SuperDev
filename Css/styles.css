@@ -12,14 +12,26 @@ header {
     background-color:#EFE0CE ;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */ 
     justify-content: space-between;
    
 }
 
 .left-section {
-    background-color: lightblue; 
-    width: 150px;
+    /* background-color: lightblue;  */
+    /* width: 150px; */
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-menu {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.youtube-logo {
+    height: 20px; 
 }
 
 .middle-section {
@@ -27,6 +39,19 @@ header {
     flex: 1;
     margin-left: 70px;
     margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.search-button {
+    height: 40px;
+    width: 60px;
+}
+
+.voice-search-button {
+    height: 40px;
+    width: 40px;
 }
 
 .right-section {
