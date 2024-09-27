@@ -1,0 +1,30 @@
+*{
+    font-family: 'roboto', 'arial';
+    margin: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+header {
+    margin-bottom: 30px;
+}
+.header{
+    height: 55px;
+    background-color:#EFE0CE ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-section {
+    background-color: lightblue; 
+}
+
+.middle-section {
+    background-color: lightpink;
+}
+
+.right-section {
+    background-color: lightblue ;
+}
+
