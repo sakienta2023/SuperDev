@@ -127,8 +127,13 @@ header {
 
 .video-time-row {
     position: relative;
-    width: 350px;
+    width: 360px;
     margin-bottom: 12px;
+    background-color: aqua;
+}
+
+.thumbnail-01 {
+    padding: 5px;
 }
 
 .video-time-row img {
@@ -141,8 +146,10 @@ header {
     bottom: 10px;
     background-color: black;
     color: white;
-    font-style: bold;
-    font-size: 14px;
+    font-family: roboto, arial;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 4px 4px;
 }
 
 body {
