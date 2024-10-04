@@ -150,6 +150,7 @@ header {
     font-weight: bold;
     font-size: 12px;
     padding: 4px 4px;
+    border-radius: 2px;
 }
 
 body {
