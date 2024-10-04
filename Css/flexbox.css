@@ -125,6 +125,21 @@ header {
     border-radius: 16px;
 }
 
+.video-time-container {
+    position: relative;
+    width: 350px;
+}
+
+.video-time-container img {
+    width: 350px;
+}
+
+.video-time-stamp {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
 body {
     padding-top: 80px;
     padding-left: 80px
