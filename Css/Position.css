@@ -7,6 +7,7 @@ header {
     right: 0px;
     left: 0px;
     height: 50px;
+    /* z-index: 100; */
 }
 
 .sidebar {
@@ -17,6 +18,25 @@ header {
     bottom: 0;
     top: 50px;
     width: 72px;
+    
+}
+
+.absolute {
+    background-color: bisque;
+    position: absolute;
+    color: white;
+    /* left: 10px; */
+    right: 10px;
+    top: 60px;
+    /* z-index: index 2000; */
+}
+
+.absolute-01 {
+    background-color: rgb(205, 126, 29);
+    position: absolute;
+    color: white;
+    right: 0;
+    top: 0;
 }
 
 body{
@@ -34,4 +54,13 @@ body{
     background-color: lightpink;
     width: 200px;
     height: 200px;
+    position: relative;
+}
+
+.absolute-03 {
+    background-color: rgb(205, 126, 29);
+    position: absolute;
+    color: white;
+    right: 10px;
+    bottom: 10px;
 }

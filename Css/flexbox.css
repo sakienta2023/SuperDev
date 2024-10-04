@@ -126,6 +126,14 @@ header {
 }
 
 body {
-    padding-top: 60px;
+    padding-top: 80px;
+    padding-left: 80px
 }
 
+.sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: aqua;
+}
