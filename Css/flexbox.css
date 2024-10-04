@@ -21,7 +21,7 @@ header {
     border-bottom-width: 1px;
     border-bottom-color: rgb(228, 228, 228);
     border-bottom-style: solid;
-
+    z-index: 1;
 }
 
 .left-section {
@@ -125,12 +125,13 @@ header {
     border-radius: 16px;
 }
 
-.video-time-container {
+.video-time-row {
     position: relative;
     width: 350px;
+    margin-bottom: 12px;
 }
 
-.video-time-container img {
+.video-time-row img {
     width: 350px;
 }
 
@@ -138,6 +139,10 @@ header {
     position: absolute;
     right: 10px;
     bottom: 10px;
+    background-color: black;
+    color: white;
+    font-style: bold;
+    font-size: 14px;
 }
 
 body {
